@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./static/style.css">
+<title>Tech Solitions</title>
+</head>
+<body>
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse border-info" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- OUR BAKERS & DOWN -->
+    <main class="container my-4">
+        <!-- on it's own, doesn't have anything else in it's row -->
+        <h1 class="text-center mb-4"><b>Tech Solutions</b></h1>
+        <hr>
+        <!-- if adding a class for targeting css styling put that class in the front of the back -->
+        <!-- when adding properties to specific breakpoints it follows the order (whatever property - breakpoint - spacing unit 1-5) -->
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="mb-4">Our Services</h2>
+                <div class="row justify-content-center">
+        <div class="row g-3 justify-content-evenly bakery-cards">
+            <div class="
+                col 
+                d-flex 
+                flex-column 
+                justify-content-evenly 
+                align-items-center 
+                p-xl-3">
+                    <!-- img-fluid is the same as height: 100%, width: 100% (conntain the image to the parent container) -->
+                    <div class="images">
+                        <!-- width is 100% of parent container, height is auto -->
+                        <img class="img-fluid" src="./static/images/cleaningpc_2.webp" alt="bakery image">
+                    </div>
+                    <a href="#">Cleaning PC</a> 
+            </div>
+            <div class="
+                col 
+                d-none 
+                d-lg-flex 
+                flex-column 
+                justify-content-evenly 
+                align-items-center 
+                p-xl-3">
+                    <div class="images">
+                        <img class="img-fluid" src="./static/images/cyber_3.webp" alt="bakery image">
+                    </div>
+                    <a href="#">Cyber Security</a> 
+            </div>
+            
+            <div class="
+                col 
+                d-none 
+                d-lg-flex 
+                flex-column 
+                justify-content-evenly 
+                align-items-center 
+                p-xl-3">
+                    <div class="images">
+                        <img class="img-fluid" src="./static/images/repair_logo.jpg" alt="bakery image">
+                    </div>
+                    <a href="#">PC repair</a> 
+            </div>
+        </div>
+        <!-- SECOND ROW OF IMAAGES (Copy/Paste from above) -->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        
+        <div class="row justify-content-center my-4 happy-customer">
+            <div class="col d-flex flex-column justify-content-between text-center my-5">
+                <h1>Welcome to Tech Solutions</h1>
+                <h2>“I never knew I needed a one-stop shop
+                    for my Tech Solution needs until now. This is the new love of my life!”</h2>
+                    
+                <h3>-Happy Customer</h3>
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <!-- Decided to do 2 seperate containers vs 1 container for styling purposes -->
+    <footer class="container-fluid pt-3">
+        <div class="row align-items-center ">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div id="logo">
+                    <img class="img-fluid" src="./static/images/TechImage_2.png" alt="logo">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-around">
+                <a href="#" >FAQs</a>
+                <a href="#">Contact</a>
+                <a href="#">Policies</a>
+            </div>
+            <footer>
+                <section id="contact" class="#">
+                    <div class="container-fluid"> 
+                        <div class="row align-items-center justify-content-center bg-white">
+                            <div class="col-sm-12 text-center my-2"> 
+                                <h2>Contact Us</h2>
+                            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+                <div>
+                    <img src="./static/images/Instagram_logo.jpg" alt="instagram icon">
+                </div>
+                <div>
+                    <img src="./static/images/facebook_logo.jpg" alt="facebook icon">
+                </div>
+            </div>
+        </div>
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mb-4">
+                        <h2 class="mb-4">About Us</h2>
+                        <p>
+                            Tech Solutions has been a main leader in the tech realated industry. for over 2000bc we have been here for any computer needs! Such as Cleaning PCs, Cyber Security, and PC repair.
+                        </p>
+                    </div>
+  
+        
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
